@@ -1,8 +1,7 @@
 # storyblok-preview-auth
  storyblok-preview-auth is a node.js package for providing a [Connect](http://www.senchalabs.org/connect/)/[Express](http://expressjs.com/) middleware to securely validate if the user is in [Storyblok](https://www.storyblok.com) edit mode
 
-[![NPM Version][npm-image]][npm-url]
-[![NPM Downloads][downloads-image]][downloads-url]
+[![NPM Version](https://img.shields.io/npm/v/storyblok-preview-auth.svg)](https://www.npmjs.com/package/storyblok-preview-auth) [![NPM Downloads](https://img.shields.io/npm/dm/storyblok-preview-auth.svg)](https://www.npmjs.com/package/storyblok-preview-auth) [![GitHub license](https://img.shields.io/github/license/hpfahl/storyblok-preview-auth.svg)](https://github.com/hpfahl/storyblok-preview-auth/blob/master/LICENSE)
 
 ## Installation
 
@@ -16,7 +15,7 @@ $ npm install storyblok-preview-auth
 
 ## API
 
-```js
+```javascript
 var previewAuthenticator = require('storyblok-preview-auth')
 ```
 
@@ -42,7 +41,7 @@ A number representing the seconds from `Date.now()` for expiry. previewAuthentic
 ## Usage
 A simple example using `storyblok-preview-auth` to securely validate if the user is in edit mode.
 
-```js
+```javascript
 var express = require('express')
 var session = require('cookie-session')
 var previewAuthenticator = require('storyblok-preview-auth')
@@ -63,7 +62,8 @@ app.listen(3000);
 
 ## Todo
 
-- [ ] Tests
+- [ ] Testing
+- [ ] more more more?
 
 ## License
 
