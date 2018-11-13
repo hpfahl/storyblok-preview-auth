@@ -1,0 +1,36 @@
+{
+  "name": "storyblok-preview-auth",
+  "version": "0.1.0",
+  "description": "Connect/Express middleware to securely validate if the user is in edit mode",
+  "main": "./lib/index.js",
+  "repository": "hpfahl/storyblok-preview-auth",
+  "author": "Heiko Pfahl <hpfahl@gmail.com> (https://github.com/hpfahl)",
+  "license": "MIT",
+  "keywords": [
+    "storyblok",
+    "authentication",
+    "express",
+    "connect",
+    "middleware"
+  ],
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "express": "^4.16.4",
+    "jest": "^23.6.0"
+  },
+  "files": [
+    "lib/index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "scripts": {
+    "test": "npm run lint && jest",
+    "lint": "eslint lib test"
+  },
+  "dependencies": {
+    "object-assign": "^4.1.1"
+  }
+}
