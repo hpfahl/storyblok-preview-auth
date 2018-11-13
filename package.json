@@ -19,7 +19,7 @@
     "jest": "^23.6.0"
   },
   "files": [
-    "lib/index.js",
+    "lib/*",
     "LICENSE",
     "README.md"
   ],
