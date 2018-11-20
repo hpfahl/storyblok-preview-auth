@@ -1,13 +1,13 @@
 # storyblok-preview-auth
  storyblok-preview-auth is a node.js package for providing a [Connect](http://www.senchalabs.org/connect/)/[Express](http://expressjs.com/) middleware to securely validate if the user is in [Storyblok](https://www.storyblok.com) edit mode
 
-[![NPM Version](https://img.shields.io/npm/v/storyblok-preview-auth.svg)](https://www.npmjs.com/package/storyblok-preview-auth) [![NPM Downloads](https://img.shields.io/npm/dm/storyblok-preview-auth.svg)](https://www.npmjs.com/package/storyblok-preview-auth) [![GitHub license](https://img.shields.io/github/license/hpfahl/storyblok-preview-auth.svg)](https://github.com/hpfahl/storyblok-preview-auth/blob/master/LICENSE)
+[![NPM Version](https://img.shields.io/npm/v/storyblok-preview-auth.svg)](https://www.npmjs.com/package/storyblok-preview-auth) [![NPM Downloads](https://img.shields.io/npm/dt/storyblok-preview-auth.svg)](https://www.npmjs.com/package/storyblok-preview-auth) [![GitHub license](https://img.shields.io/github/license/hpfahl/storyblok-preview-auth.svg)](https://github.com/hpfahl/storyblok-preview-auth/blob/master/LICENSE)
 
 ## Installation
 
 This is a [Node.js](https://nodejs.org/en/) module available through the
 [npm registry](https://www.npmjs.com/). Installation is done using the
-[`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
+[`npm install`](https://docs.npmjs.com/getting-started/installing-npm-packages-locally) command:
 
 ```sh
 $ npm install storyblok-preview-auth
