@@ -1,6 +1,6 @@
 {
   "name": "storyblok-preview-auth",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Connect/Express middleware to securely validate if the user is in edit mode",
   "main": "./lib/index.js",
   "repository": "hpfahl/storyblok-preview-auth",
